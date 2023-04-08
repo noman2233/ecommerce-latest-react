@@ -1,0 +1,154 @@
+.checkout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+}
+.personal_info_checkout{
+    background-color: #80808026;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+.checkout_heading{
+    text-align: center;
+}
+.name_email{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    width:30vw;
+    align-items: center;
+
+  
+}
+.name_email input{
+    padding: 12px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.address{
+    margin:20px 0px;
+}
+
+.address input{
+    padding: 12px 30px;
+    width: 35vw;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.address textarea{
+    padding: 12px 30px;
+    width: 25vw;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+    
+
+}   
+.address textarea::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.city_code{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    width:30vw;
+    align-items: center;
+
+}
+.city_code input{
+    padding: 12px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.contact_info{
+    font-size: 20px;
+    font-weight: 600;
+}
+.phone{
+    margin:20px 0px;
+}
+.phone input{
+    padding: 12px 30px;
+    width: 15vw;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid black; 
+}
+.pay_button{
+    padding:13px 20px ;
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    margin: 15px 0px;
+
+}
+.checkout_total{
+    margin: 0px 20px;
+    background-color: #76767a1c;
+    border-radius: 10px;
+}
+.product_bought_number{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 0px;
+}
+.product_bought_image{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.coupon{
+    margin: 15px;
+}
+.product_bought_price{
+    font-size: 16px;
+    font-weight: 600;
+}
+.coupon_input{
+    padding: 12px 30px;
+    width: 10vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin:10px 10px ;
+}
+.coupon_button{
+    padding:13px 20px ;
+    color: white;
+    background-color:green;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+}
+.checkout_subtotal{
+    display: flex;
+    justify-content: space-around;
+}
+.checkout_total_total{
+    display: flex;
+    justify-content: space-around;
+}
+.bank_pictures{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bank_pictures img{
+    width: 50px;
+    height: 50px; 
+    object-fit: contain;
+    margin: 10px 5px;
+  
+}

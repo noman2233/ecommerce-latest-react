@@ -1,0 +1,36 @@
+.form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .input-container {
+    padding: 8px 20px;
+    width: 20vw;
+    margin: 7px 0px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-container {
+    padding: 7px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .label {
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px 0px;
+  }
+  

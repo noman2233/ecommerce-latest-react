@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 20px;
+}
+.card_image {
+  display: flex;
+}
+
+.mainImage {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  z-index: 1;
+}
+.product_button {
+  padding: 7px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card_info {
+  display: flex;
+  flex-direction: column;
+}
+.card_title {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+.card_price {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}

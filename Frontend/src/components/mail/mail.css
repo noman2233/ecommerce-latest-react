@@ -1,0 +1,54 @@
+.MailContainer{
+    
+
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    background-color:#003580 ;
+    padding: 20px ;
+    /* margin: 20px auto; */
+}  
+.MailContainer h2{
+    margin-bottom: 20px;
+} 
+.inputemail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+
+.inputemail input{
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 20px auto;
+    
+}
+.botn{
+    
+    color: white;
+    background-color: #003580;
+    border: 1px solid white;
+    padding: 8px 13px;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* @media screen and (max-width:480px) {
+    .neslwtter{
+        font-size: 20px;
+    }
+    .subscription{
+        font-size: 15px;
+        text-align: center;
+    }
+} */

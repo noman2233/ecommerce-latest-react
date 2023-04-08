@@ -1,0 +1,12 @@
+.offer{
+    background-color:black;
+    color: white;
+
+}
+.offer p{
+    padding: 4px 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 3px;
+}

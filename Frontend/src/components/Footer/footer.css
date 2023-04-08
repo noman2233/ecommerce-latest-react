@@ -1,0 +1,50 @@
+.footerHome {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw;
+  background-color: white;
+  color: #003580;
+}
+
+.useful {
+    color: #003580;
+    margin: 10px 20px;
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+  color: #003580;
+  margin: 10px 20px;
+  color: #003580;
+  margin: 10px 20px;
+  flex: 1;
+}
+.footer_col ul {
+  list-style: none;
+}
+
+.footer_col ul li a {
+  color: #003580;
+  padding: 20px 0px;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+.footer_col ul li {
+    margin: 15px 0px;
+
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.copyright p {
+  text-align: center;
+}
